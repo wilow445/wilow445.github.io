@@ -1,4 +1,96 @@
+# AI Query Revealer — robots.txt
+# Explicitly allow all search engines and AI crawlers
+
+# Default: allow everything
 User-agent: *
 Allow: /
 
+# --- Search Engines ---
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+# --- AI Search & Browse Bots ---
+
+# OpenAI — ChatGPT Search (CRITICAL)
+User-agent: OAI-SearchBot
+Allow: /
+
+# OpenAI — GPTBot (training + search)
+User-agent: GPTBot
+Allow: /
+
+# Anthropic — Claude
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+
+# Google — Gemini / AI Overviews
+User-agent: Google-Extended
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+# Microsoft Copilot
+User-agent: CopilotBot
+Allow: /
+
+# Meta AI
+User-agent: FacebookBot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+
+# Apple — Siri / Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+# Common Crawl (used by many LLMs for training)
+User-agent: CCBot
+Allow: /
+
+# Cohere AI
+User-agent: cohere-ai
+Allow: /
+
+# Amazon / Alexa
+User-agent: Amazonbot
+Allow: /
+
+# Mistral AI
+User-agent: MistralBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Brave Search
+User-agent: BraveBot
+Allow: /
+
+# Bytespider (TikTok / Douyin AI)
+User-agent: Bytespider
+Allow: /
+
+# Internet Archive
+User-agent: ia_archiver
+Allow: /
+
+# Sitemap
 Sitemap: https://aiqueryrevealer.com/sitemap.xml
