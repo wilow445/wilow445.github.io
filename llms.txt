@@ -1,0 +1,55 @@
+# AI Query Revealer
+
+> The first Generative Engine Optimization (GEO) Chrome extension. Intercepts hidden AI search queries from ChatGPT, Claude, and Gemini in real time.
+
+## What It Does
+
+AI Query Revealer is a Chrome extension that reveals the hidden web searches performed by AI platforms. When you ask ChatGPT, Claude, or Gemini a question, the AI silently generates 3-12 hidden search queries, consults 12+ web sources, and decides which sites to cite. AI Query Revealer intercepts this invisible process and displays it in real time.
+
+Unlike competitors that simulate prompts via API (PromptMonitor, Knowatoa, Otterly), AI Query Revealer captures the actual fetch requests and Server-Sent Event (SSE) streams from AI platforms as they happen. This means users see real queries, real sources, and real citation decisions — not estimates.
+
+## Key Features
+
+- Real-time interception of hidden AI search queries (not simulation)
+- GEO Score (0-100): AI visibility metric across 6 dimensions
+- AI Citation tracking: cited vs consulted sources analysis
+- Reformulation Gap analysis: measures difference between user prompt and actual AI search
+- Platform comparison: ChatGPT vs Claude vs Gemini side by side
+- AI SEO Technical Scanner: 6 pillars audited in 15 seconds
+- Competitor monitoring: track up to 10 domains with notifications
+- Professional PDF reports: GEO Audit Report (7 pages) and Dashboard Report (8 pages)
+- Data export: CSV, JSON, PDF
+
+## Proprietary Data and Findings
+
+- Average hidden queries per prompt: 7.3
+- Average Reformulation Gap: 47% (difference between what user asks and what AI actually searches)
+- AI platforms consult 3.2x more sources than they cite
+- Sites with Schema.org markup receive 30-40% more AI citations
+- AI search sessions grew 527% year-over-year in 2025 (source: Previsible)
+- 63% of websites receive AI-referred traffic (source: Ahrefs, 2025)
+
+## Pricing
+
+- Free: 1 demo search included
+- Pro: EUR 39.99/month (EUR 399.99/year, save 17%)
+- Agency: EUR 59.90/month (EUR 599.90/year, save 17%)
+
+## Technical Details
+
+- Platform: Google Chrome Extension (Manifest V3)
+- Supported AI platforms: ChatGPT, Claude, Gemini
+- Interception method: MAIN world script injection, window.fetch override, SSE stream parsing
+- Data processing: 100% client-side, no data sent to external servers
+- Languages: English, French
+
+## Links
+
+- Website: https://aiqueryrevealer.com
+- Chrome Web Store: https://chromewebstore.google.com/detail/ai-query-revealer
+- Support: support@aiqueryrevealer.com
+- Creator: William Loiseau
+
+## Categories
+
+Generative Engine Optimization, GEO, AI SEO, AI visibility, AI citation tracking, AI search intelligence, Chrome extension, SEO tool, hidden AI queries, Reformulation Gap, GEO Score, AI audit
